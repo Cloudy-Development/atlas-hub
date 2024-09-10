@@ -1,0 +1,3 @@
+name: Atlas
+version: '${project.version}'
+main: dev.cloudy.hub.Atlas
