@@ -16,7 +16,7 @@ public class PlayerListener implements Listener {
     @EventHandler
     private void onJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
-        HotbarUtility.applyItems(player);
+        HotbarUtility.applyItems(player, true);
 
         event.setJoinMessage(null);
     }
