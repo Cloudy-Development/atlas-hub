@@ -1,0 +1,11 @@
+server-selector:
+  enabled: true
+  name: "&eServer Selector &7(Right Click)"
+  material: COMPASS
+  durability: 0
+  slot: 4
+  lore:
+    - ""
+    - "&7Right click to open the server selector."
+    - ""
+
